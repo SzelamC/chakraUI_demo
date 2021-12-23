@@ -18,13 +18,7 @@ import {
 const Details = () => {
   const colSpan = useBreakpointValue({ base: 2, md: 1 });
   return (
-    <Box
-      display="flex"
-      w="100%"
-      h="100%"
-      p={10}
-      spacing={6}
-    >
+    <Box display="flex" w="100%" h="100%" p={10} spacing={6}>
       <VStack h="100%" spacing={6} p={10} alignItems="flex-start" w="100%">
         <Heading size="2xl">Your details</Heading>
         <Text>If you already have an account click here to login</Text>
@@ -68,7 +62,7 @@ const Details = () => {
             <Checkbox defaultChecked>Ship to billing address</Checkbox>
           </GridItem>
           <GridItem colSpan={2}>
-            <Button size="lg" w="100%" colorScheme="brand">
+            <Button size="lg" w="100%" variant="primary">
               Place Order
             </Button>
           </GridItem>
