@@ -24,7 +24,7 @@ const Carts = () => {
         <Text>
           If price is too hard on your eyes,
           <Button onClick={toggleColorMode} variant="link" colorScheme="black">
-            try changing the theme
+            try changing the theme once haha
           </Button>
         </Text>
         <HStack spacing={6} alignItems="center" w="100%">
